@@ -1,0 +1,56 @@
+<!--pages/selectaddress/index.wxml-->
+<view style="padding: 60rpx 30rpx;">
+  <view style="height:64rpx; line-height:64rpx; text-align:center; position:relative;">
+  <button bindtap='goback' style="width:100rpx;font-size: 14px;height:50rpx; line-height:50rpx; position:absolute; left:10rpx; top:6rpx;">返回</button>
+  城市选择
+  </view>
+  <view style="font-size:12px;color:#ccc; padding:20rpx;">
+  热门城市
+  </view>
+  <view class="box" bindtap="addressTap">
+    <view class="son" data-text="上海">上海</view> 
+    <view class="son" data-text="北京">北京</view>
+    <view class="son" data-text="广州">广州</view>
+    <view class="son" data-text="深圳">深圳</view> 
+    <view class="son" data-text="杭州">杭州</view>
+    <view class="son" data-text="南京">南京</view>
+
+    <view class="son" data-text="西安">西安</view> 
+    <view class="son" data-text="武汉">武汉</view>
+    <view class="son" data-text="成都">成都</view>
+
+    <view class="son" data-text="重庆">重庆</view> 
+    <view class="son" data-text="合肥">合肥</view>
+    <view class="son" data-text="东莞">东莞</view>
+
+    <view class="son" data-text="天津">天津</view> 
+    <view class="son" data-text="厦门">厦门</view>
+    <view class="son" data-text="郑州">郑州</view>
+ 
+    <view class="son" data-text="青岛">青岛</view> 
+    <view class="son" data-text="福州">福州</view>
+    <view class="son" data-text="昆明">昆明</view>
+    
+    <view class="son" data-text="南昌">南昌</view> 
+    <view class="son" data-text="苏州">苏州</view>
+    <view class="son" data-text="福州">福州</view>
+    
+    <view class="son" data-text="宁波">宁波</view> 
+    <view class="son" data-text="大连">大连</view>
+    <view class="son" data-text="吉林">吉林</view>
+    
+    <view class="son" data-text="长春">长春</view> 
+    <view class="son" data-text="无锡">无锡</view>
+    <view class="son" data-text="长沙">长沙</view>
+    
+    <view class="son" data-text="佛山">佛山</view> 
+    <view class="son" data-text="中山">中山</view>
+    <view class="son" data-text="珠海">珠海</view>
+    
+    <view class="son" data-text="苏州">苏州</view> 
+    <view class="son" data-text="泉州">泉州</view>
+    <view class="son" data-text="太原">太原</view>
+</view>
+ 
+
+</view>

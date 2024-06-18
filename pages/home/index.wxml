@@ -1,0 +1,56 @@
+<!-- <wxs src='../../wxs/common.wxs' module='common' /> -->
+  <view class='wp'>
+    <view style='height:780rpx;margin:0 auto' class='head'>
+    
+    <view style='padding:380rpx 30rpx 0;'>
+      <view class='main'>
+        <view class="lison">
+          <view class='lisonL'>行政地址</view>
+          <view class='lisonR'>
+          <image class='rightIcon' src='../../images/righticon.png'></image>
+          <input value='{{theAddress}}' bindtap='selectaddress' placeholder='请选择行政地址' class='rightIpt' />
+          </view>
+        </view>
+        <view class="lison">
+          <view class='lisonL'>企业字号</view>
+          <view class='lisonR'>
+          <image class='rightIcon' src='../../images/righticon.png'></image>
+          <input value='{{theNo}}' placeholder='请填写企业字号'  class='rightIpt' />
+          </view>
+        </view>
+        <view class="lison">
+          <view class='lisonL'>所属行业</view>
+          <view class='lisonR'>
+          <image class='rightIcon' src='../../images/righticon.png'></image>
+          <input value='{{theKind}}' bindtap='selectkind' placeholder='请选择所属行业' class='rightIpt' />
+          </view>
+        </view>
+        <view class="lison">
+          <view class='lisonL'>企业类型</view>
+          <view class='lisonR' style="position:relative;">
+          <image class='rightIcon' src='../../images/righticon.png'></image>
+          <view data-text='{{theType}}' bindtap='selectshow' 
+           class='rightIpt'>{{theType}}</view>
+          
+          <view bindtap="selectsure" class="typeList"  style="display:{{showList}}">
+            <view class="seson" data-text="有限责任公司">有限责任公司</view>
+            <view class="seson" data-text="股份有限公司">股份有限公司</view>
+            <view class="seson" data-text="合伙企业">合伙企业</view>
+            <view class="seson" data-text="有限公司">有限公司</view>
+          </view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+    </view>
+    <view style='padding:0 30rpx;'>
+      <button style='height:88rpx;margin:48rpx auto 0' class='submitBtn' bindtap='sureFun'>
+      </button>
+    </view>
+    
+    <view style='height:900rpx;margin:60rpx auto 0;' class='bottomBg'>
+    </view>
+  </view>
+
+  

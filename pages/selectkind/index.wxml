@@ -1,0 +1,91 @@
+<!--pages/selectaddress/index.wxml-->
+<view  bindtap="kindTap" style="padding: 60rpx 30rpx;">
+
+  <view style="height:64rpx; line-height:64rpx; text-align:center; position:relative;">
+  <button bindtap='goback' style="width:100rpx;font-size: 14px;height:50rpx; line-height:50rpx; position:absolute; left:10rpx; top:6rpx;">返回</button>
+  城市选择
+  </view>
+
+  <view style="font-size:12px;color:#ccc; padding:20rpx;">
+  科技类
+  </view>
+  <view class="box">
+    <view class="son" data-text="网络科技">网络科技</view> 
+    <view class="son" data-text="生物科技">生物科技</view>
+    <view class="son" data-text="信息科技">信息科技</view>
+    <view class="son" data-text="通信科技">通信科技</view> 
+    <view class="son" data-text="新能源科技">新能源科技</view>
+    <view class="son" data-text="自动化科技">自动化科技</view>
+
+    <view class="son" data-text="激光科技">激光科技</view> 
+    <view class="son" data-text="新材料">新材料</view>
+    <view class="son" data-text="游戏科技">游戏科技</view>
+
+    <view class="son" data-text="海洋科技">海洋科技</view> 
+    <view class="son" data-text="其他科技">其他科技</view>
+  </view>
+
+  <view style="font-size:12px;color:#ccc; padding:20rpx;">
+  服务类
+  </view>
+  <view class="box">
+    <view class="son" data-text="生活服务">生活服务</view> 
+    <view class="son" data-text="企业服务">企业服务</view>
+    <view class="son" data-text="翻译服务">翻译服务</view>
+    <view class="son" data-text="翻译服务">翻译服务</view> 
+    <view class="son" data-text="礼仪服务">礼仪服务</view>
+    <view class="son" data-text="劳务服务">劳务服务</view>
+
+    <view class="son" data-text="教育服务">教育服务</view> 
+    <view class="son" data-text="旅游服务">旅游服务</view>
+    <view class="son" data-text="运输服务">运输服务</view>
+
+    <view class="son" data-text="居民服务">居民服务</view> 
+    <view class="son" data-text="租赁服务">租赁服务</view>
+    <view class="son" data-text="其他服务">其他服务</view>
+  </view>
+
+  <view style="font-size:12px;color:#ccc; padding:20rpx;">
+  管理类
+  </view>
+  <view class="box">
+    <view class="son" data-text="企业管理">企业管理</view> 
+    <view class="son" data-text="酒店管理">酒店管理</view>
+    <view class="son" data-text="投资管理">投资管理</view>
+    <view class="son" data-text="餐饮管理">餐饮管理</view> 
+    <view class="son" data-text="物业管理">物业管理</view>
+    <view class="son" data-text="人力管理">人力管理</view>
+
+    <view class="son" data-text="商业管理">商业管理</view> 
+  </view>
+
+  <view style="font-size:12px;color:#ccc; padding:20rpx;">
+  咨询类
+  </view>
+  <view class="box">
+    <view class="son" data-text="战略咨询">战略咨询</view> 
+    <view class="son" data-text="IT咨询">IT咨询</view>
+    <view class="son" data-text="创新设计咨询">创新设计咨询</view>
+    <view class="son" data-text="财务咨询">财务咨询</view> 
+    <view class="son" data-text="技术咨询">技术咨询</view>
+    <view class="son" data-text="商务咨询">商务咨询</view>
+  </view>
+
+
+  <view style="font-size:12px;color:#ccc; padding:20rpx;">
+  其他
+  </view>
+  <view class="box">
+    <view class="son" data-text="建筑装潢">建筑装潢</view> 
+    <view class="son" data-text="实业">实业</view>
+    <view class="son" data-text="贸易">贸易</view>
+    <view class="son" data-text="软件开发">软件开发</view> 
+    <view class="son" data-text="批发采购">批发采购</view>
+    <view class="son" data-text="农林牧渔">农林牧渔</view>
+
+    <view class="son" data-text="工程">工程</view> 
+    <view class="son" data-text="采矿业">采矿业</view> 
+    <view class="son" data-text="生产和供应业">生产和供应业</view> 
+  </view>
+
+</view>
